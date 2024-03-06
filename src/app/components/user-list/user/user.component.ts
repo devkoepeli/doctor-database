@@ -10,5 +10,7 @@ import { User } from '../../../interfaces/user.interface';
 })
 export class UserComponent {
   @Input() user!: User;
+  @Input() index!: number;
+  @Input() lastItem!: boolean;
 
 }

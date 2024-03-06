@@ -1,1 +1,12 @@
-<p>user.id</p>
+<div class="user-container" [class.mb-0]="lastItem">
+    <div class="name-id-container">
+        <h3>{{ user.name }}</h3>
+        <div>#{{ user.id }}</div>
+    </div>
+    <div [style.padding-bottom.px]="16">
+        {{ user.address.city }}
+    </div>
+    <div>
+        {{ user.email }}
+    </div>
+</div>

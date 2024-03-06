@@ -1,0 +1,17 @@
+.user-container {
+    width: 100%;
+    background: whitesmoke;
+    height: 100px;
+    margin-bottom: 32px;
+    color: black;
+    padding: 8px;
+
+    .name-id-container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
